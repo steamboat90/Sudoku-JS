@@ -1,0 +1,23 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(9, 100px);
+    grid-template-rows: repeat(9, 100px);
+    justify-content: center;
+}
+.cell{
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    text-align: center;
+    font-size:72px;
+}
+.buttons{
+    margin-left: 37.6%;
+}
+button {
+    background-color:#4CAF50;
+    color:white;
+    border:none;
+    margin:5px auto;
+    padding:15px 35px;
+    font-size:18px;
+}
